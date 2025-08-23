@@ -1,0 +1,35 @@
+*{
+    font-family: Helvetica, sans-serif;
+}
+h1{
+    color: brown;
+}
+h3{
+    color:rgb(8, 69, 5);
+}
+#login{
+    background-color:white;
+}
+#signup{
+    background-color: brown;
+    color:white;
+}
+.upvote{
+    background-color: cadetblue;
+    color:aliceblue;
+}
+/* Decendent selector */
+.post a{
+    color:rgb(229, 20, 166);
+}
+nav  a{
+    color:chocolate;
+}
+
+/* combinator*/
+p + h3{
+    text-decoration:underline;
+}
+.upvote + button{
+    background-color: cadetblue;
+}
