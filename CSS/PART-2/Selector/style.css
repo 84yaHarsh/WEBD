@@ -33,3 +33,44 @@ p + h3{
 .upvote + button{
     background-color: cadetblue;
 }
+/* child combinator*/
+div >input{
+    background-color: aquamarine;
+}
+/*atribute selector*/
+input[type="text"]{
+    color:blueviolet
+}
+input[type="password"]{
+    color: blue;
+}
+input[type]{
+     background-color: blanchedalmond;
+}
+/* pseudo class */
+
+button:hover{
+    background-color: mediumvioletred;
+    color:black;
+}
+p:active{
+    font-weight: bold;
+    color:black
+}
+input[type="radio"]:checked + label{
+    color:rgb(162, 71, 71);
+    text-decoration:underline;
+}
+div:nth-of-type(2n){
+   background-color: rgb(167, 124, 206);
+}
+/*pseudo element */
+h1::first-letter{
+    color:black;
+}
+p::first-line{
+    color:blue;
+}
+p::selection{
+    background-color: chartreuse;
+}
