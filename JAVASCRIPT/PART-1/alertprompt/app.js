@@ -1,6 +1,6 @@
-// alert("something went wrong!");
-// console.error("this is a error msg");
-// console.warn("this is a warning msg");
+/*alert("something went wrong!");
+console.error("this is a error msg");
+console.warn("this is a warning msg");*/
 
 // prompt :for input popup
 let firstname = prompt("enter your name");
