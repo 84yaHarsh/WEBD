@@ -1,0 +1,5 @@
+import {sum,diff} from "./math.js";
+import { generate } from "random-words";
+
+console.log(generate());
+console.log(sum(1,2));
